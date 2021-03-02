@@ -1,0 +1,32 @@
+@import '../variables';
+
+.cart {
+    &.col {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; 
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    li {
+        background-color: var(--white);
+        padding: 8px;
+    }
+    li + li {
+        margin-top: 4px;
+    }
+}
+
+.cart-footer {
+    p {
+        margin-bottom: .5rem;
+    }
+    p:only-child {
+        margin-bottom: 0;
+    }
+}

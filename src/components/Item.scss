@@ -1,0 +1,13 @@
+.card-img {
+    img {
+        height: 130px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.card-btn {
+    svg {
+        fill: var(--white);
+    }
+}

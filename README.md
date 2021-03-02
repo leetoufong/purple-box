@@ -1,3 +1,7 @@
+# Purple Box
+
+Purple Box is a mock/practice e-commerce project utilizing React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

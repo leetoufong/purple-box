@@ -1,12 +1,9 @@
-@import '../variables';
+@import '../../variables';
 
 .cart {
-    &.col {
-        height: 100%;
-        position: absolute;
-        right: 0;
-        top: 0; 
-    }
+    position: absolute;
+	right: 0;
+	top: 0;
     
     ul {
         list-style-type: none;

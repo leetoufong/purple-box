@@ -1,6 +1,6 @@
 import React from 'react';
-import Item from './Item';
-import './Item.scss'
+import Item from '../Item/Item';
+import './Items.scss'
 
 export default function Items(props) {
     const {products, setCart} = props;

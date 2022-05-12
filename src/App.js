@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Cart from './components/Cart';
-import Items from './components/Items';
+import Cart from './components/Cart/Cart';
+import Items from './components/Items/Items';
 import './App.scss'
 
 export default function App() {
@@ -41,10 +41,13 @@ export default function App() {
                     <header className="app-header p-3">
                         <h1>Purple Box</h1>
                         <p>What's in the box?</p>
+						<Cart cart={cart} setCart={setCart} />
                     </header>
-                    <main className="app-main row no-gutters" role="main">
+                    
+					<main className="app-main row no-gutters" role="main">
+
                         <Items products={products} setCart={setCart} />
-                        <Cart cart={cart} setCart={setCart} />
+
                     </main>
                 </>
             )}

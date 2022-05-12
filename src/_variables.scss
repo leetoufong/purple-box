@@ -1,9 +1,16 @@
-:root {
-    --white: #ffffff;
-    --lightgray: #dadada;
-    --darkgray: #777777;
-    --lavender: #e7c8f5;
-    --black: #000000;
+// Theme
+$pink: #f06bf2;
+$indigo: #532473;
+$purple: #7630d9;
+$blue: #04588c;
+$turqoise: #79f2e6;
 
-    --radius: 4px;
-}
+// Neutrals
+$white: #fff;
+$lightgray: #dadada;
+$darkgray: #777777;
+$black: #000;
+
+$primary: $purple;
+
+$radius: 4px;
